@@ -13,7 +13,9 @@ Adicionalmente se debe cambiar un registro de Windows:
 
 HKEY_CURRENT_USER > Software > Microsoft > Windows > CurrentVersion > Explorer > CLSID > {645FF040-5081-101B-9F08-00AA002F954E} > Default Icon
 
-3. Aquí encontrarás tres cadenas de registro llamadas "(Default)" (Predeterminado), "empty" (vacia) y "full" (llena). Al hacer doble click, verás la ruta en donde se encuentra el ícono que elegiste, en este caso, el ícono de Kirby. Debes hacer doble clic en cada uno y agregar “,0” (sin las comillas) al final de cada ruta (coma, cero), es decir, si el archivo se encuentra en la carpeta imagenes debería verse algo así:
+3. Aquí encontrarás tres cadenas de registro llamadas "(Default)" (Predeterminado), "empty" (vacia) y "full" (llena). 
+Al hacer doble click, verás la ruta en donde se encuentra el ícono que elegiste, en este caso, el ícono de Kirby. 
+Debes hacer doble clic en cada uno y agregar “,0” (sin las comillas) al final de cada ruta (coma, cero), es decir, si el archivo se encuentra en la carpeta imagenes debería verse algo así:
 
 C:\Users\Imágenes\Icons\KirbyOpen.ico,0
 
