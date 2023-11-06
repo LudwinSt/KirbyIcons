@@ -3,3 +3,20 @@ Para cambiar el ícono ir a:
 Click derecho en Escritorio > Personalización > Temas > Configuración de íconos de escritorio
 
 Se elijen los íconos de la papelera de reciclaje.
+
+----- INFORMACIÓN IMPORTANTE
+Adicionalmente se debe cambiar un registro de Windows:
+
+1. Accede al Editor del Registro de Windows, para hacerlo: Abre tu menú Inicio (tecla Windows) y escribe "Editor del registro" (sin comillas, o en inglés "Registry Editor") y notarás que aparece una ventana emergente para abrir con permiso de administrador
+
+2. Desde el Editor del Registro, ve a esta ruta:
+
+HKEY_CURRENT_USER > Software > Microsoft > Windows > CurrentVersion > Explorer > CLSID > {645FF040-5081-101B-9F08-00AA002F954E} > Default Icon
+
+3. Aquí encontrarás tres cadenas de registro llamadas "(Default)" (Predeterminado), "empty" (vacia) y "full" (llena). Al hacer doble click, verás la ruta en donde se encuentra el ícono que elegiste, en este caso, el ícono de Kirby. Debes hacer doble clic en cada uno y agregar “,0” (sin las comillas) al final de cada ruta (coma, cero), es decir, si el archivo se encuentra en la carpeta imagenes debería verse algo así:
+
+C:\Users\Imágenes\Icons\KirbyOpen.ico,0
+
+4. Luego se debe presionar Aceptar en cada ventana para cerrarla cuando se  haya terminado.
+
+5. Cierra el Editor del Registro e intenta enviar algo a la Papelera y eliminarlo. El ícono debería cambiar con normalidad ahora.
