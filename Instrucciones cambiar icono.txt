@@ -7,7 +7,8 @@ Se elijen los íconos de la papelera de reciclaje.
 ----- INFORMACIÓN IMPORTANTE
 Adicionalmente se debe cambiar un registro de Windows:
 
-1. Accede al Editor del Registro de Windows, para hacerlo: Abre tu menú Inicio (tecla Windows) y escribe "Editor del registro" (sin comillas, o en inglés "Registry Editor") y notarás que aparece una ventana emergente para abrir con permiso de administrador
+1. Accede al Editor del Registro de Windows, para hacerlo: Abre tu menú Inicio (tecla Windows) y escribe "Editor del registro" (sin comillas, o en inglés "Registry Editor")
+Notarás que aparece una ventana emergente para abrir con permiso de administrador
 
 2. Desde el Editor del Registro, ve a esta ruta:
 
